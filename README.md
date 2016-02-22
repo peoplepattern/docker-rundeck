@@ -10,5 +10,6 @@ docker run --detach=true --publish=4440:4440 --publish=4443:4443 \
 
 If you want to build it yourself:
 ```
+export RUNDECK_ADMIN_PASSWORD='super secret password'
 make build
 ```
